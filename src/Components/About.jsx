@@ -42,10 +42,10 @@ const About = () => {
                <div className="md:col-span-8">
                   <p className="batch"> Best cocktails</p>
                   <h2>
-                     Where every detail matters
+                     Lorem ipsum dolor sit amet
                      <span className="text-white">-</span>
                   </h2>
-                  <h2>from muddle to garnish</h2>
+                  <h2>voluptas inventore facer</h2>
                </div>
 
                <div className="sub-content">

@@ -1,7 +1,7 @@
 import { useGSAP } from "@gsap/react";
 import { SplitText } from "gsap/all";
 import gsap from "gsap";
-import { openingHours, socials } from "../../Constants";
+import { openingHours, socials, storeInfo } from "../../Constants";
 
 const Contact = () => {
    useGSAP(() => {
@@ -21,7 +21,7 @@ const Contact = () => {
             yPercent: 100,
             stagger: 0.02,
          })
-         .from("#contact h3, #contact p", {
+         .from("#contact h3, #contact p, #contact a", {
             opacity: 0,
             yPercent: 100,
             stagger: 0.02,
@@ -55,18 +55,18 @@ const Contact = () => {
             id="f-left-leaf"
          />
 
-         <div className="content ">
-            <h2>Where to Find Us</h2>
+         <div className="content">
+            <h2>{storeInfo.heading}</h2>
 
             <div>
                <h3>Visit Our Bar</h3>
-               <p>456, Raq Blvd. #404, Los Angeles, CA 90210</p>
+               <p>{storeInfo.address}</p>
             </div>
 
             <div>
                <h3>Contact Us</h3>
-               <p>(555) 987-6543</p>
-               <p>hello@jsmcocktail.com</p>
+               <p>{storeInfo.contact.phone}</p>
+               <p>{storeInfo.contact.email}</p>
             </div>
 
             <div>
@@ -80,7 +80,6 @@ const Contact = () => {
 
             <div>
                <h3>Socials</h3>
-
                <div className="flex-center gap-5">
                   {socials.map((social) => (
                      <a
@@ -90,7 +89,7 @@ const Contact = () => {
                         rel="noopener noreferrer"
                         aria-label={social.name}
                      >
-                        <img src={social.icon} />
+                        <img src={social.icon} alt={social.name} />
                      </a>
                   ))}
                </div>

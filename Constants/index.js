@@ -87,28 +87,27 @@ const profileLists = [
 ];
 
 const featureLists = [
-   "Perfectly balanced blends",
-   "Garnished to perfection",
-   "Ice-cold every time",
-   "Expertly shaken & stirred",
+   "Lacinia elementum integer",
+   "Consectetur adipiscing elit",
+   "Euismod tempor incidi",
+   "Tincidunt ut labore et dolo",
 ];
 
 const goodLists = [
-   "Handpicked ingredients",
-   "Signature techniques",
-   "Bartending artistry in action",
-   "Freshly muddled flavors",
+   "Suspendisse potenti nullam",
+   "Maecenas accumsan lacus",
+   "Pellentesque habitant morbi",
+   "Venenatis a condimentum",
 ];
 
 const storeInfo = {
    heading: "Where to Find Us",
-   address: "456, Raq Blvd. #404, Los Angeles, CA 90210",
+   address: "123, Commn Ave. #404, Quezon City, CM 1234",
    contact: {
-      phone: "(555) 987-6543",
-      email: "hello@jsmcocktail.com",
+      phone: "(123) 123-456",
+      email: "picardochristopherjohnoleo1@gmail.com",
    },
 };
-
 const openingHours = [
    { day: "Mon–Thu", time: "11:00am – 12am" },
    { day: "Fri", time: "11:00am – 2am" },
@@ -141,7 +140,7 @@ const allCocktail = [
       image: "/images/drink1.png",
       title: "Simple Ingredients, Bold Flavor",
       description:
-         "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
+         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
    },
    {
       id: 2,
@@ -149,7 +148,7 @@ const allCocktail = [
       image: "/images/drink2.png",
       title: "A Zesty Classic That Never Fails",
       description:
-         "The Margarita is a classic that balances tangy lime, smooth tequila, and a touch of sweetness. Shaken, frozen, or on the rocks—it’s always crisp & refreshing.",
+         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
    },
    {
       id: 3,
@@ -157,7 +156,7 @@ const allCocktail = [
       image: "/images/drink3.png",
       title: "Simple Ingredients, Bold Flavor",
       description:
-         "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
+         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
    },
    {
       id: 4,
@@ -165,7 +164,7 @@ const allCocktail = [
       image: "/images/drink4.png",
       title: "Crafted With Care, Poured With Love",
       description:
-         "Each cocktail is made with fresh ingredients and a passion for perfecting every pour, whether you're celebrating or simply relaxing.",
+         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam, quis nostrud.",
    },
 ];
 
