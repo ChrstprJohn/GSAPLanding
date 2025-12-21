@@ -24,6 +24,16 @@ body {
    overflow-x: hidden;
 }
 
+section,
+#hero,
+#cocktails,
+#about,
+#art,
+#menu,
+#contact {
+   overflow: hidden;
+}
+
 @utility flex-center {
    @apply flex justify-center items-center;
 }
@@ -257,7 +267,7 @@ body {
 
       .masked-container {
          h2 {
-            @apply text-4xl md:text-5xl  font-modern-negra text-center mb-10 text-white mt-32;
+            @apply text-4xl md:text-5xl font-modern-negra text-center mb-10 text-white mt-32;
          }
 
          div {
